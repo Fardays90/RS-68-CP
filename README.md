@@ -22,7 +22,8 @@
   is smaller between the two heights. We store the smaller height and calcualte the distance between the
   two pointers. Then we calcualate the area and compare it to the maxArea variable. If bigger we store it
   otherwise not. Then we either increment or decrement the left pointer or the right pointer respectively
-  depending on which height is smaller. We discard the smaller hieght because we want to find the largest. 
+  depending on which height is smaller. We discard the smaller hieght because we want to find the largest.
+  
 * Time complexity for this code is O(n) because at first we are iterating for the height array one by one
   which is O(n). After that the two pointers are iterating over the list linearly so again O(n). As a
   result the total time complexity becomes O(n);
